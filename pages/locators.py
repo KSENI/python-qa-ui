@@ -10,3 +10,9 @@ class LoginPageLocators():
     REGISTRATION_PASSWORD = (By.CSS_SELECTOR, "input[name='registration-password1']")
     REGISTRATION_PASSWORD_REPEAT = (By.CSS_SELECTOR, "input[name='registration-password2']")
     REGISTRATION_BUTTON = (By.CSS_SELECTOR, "button[name='registration_submit']")
+class ProductPageLocators():
+    ADD_TO_BASKET = (By.CSS_SELECTOR, "#add_to_basket_form button[type='submit']")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages div:nth-of-type(1) div")
+    BASKET = (By.CSS_SELECTOR, ".basket-mini")
+    
+    
